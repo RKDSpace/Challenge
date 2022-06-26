@@ -10,7 +10,9 @@ Louise’s play Fever came close to its fundraising goal in a short amount of ti
 ### Analysis of Outcomes Based on Launch Date
 The first analysis I put together was theater outcomes by launch date. I ran a filter on my main "Kickstarter" sheet to filter out the plays, since this is the data, I want to look at. I then added a new column to my "Kickstarter" spreadsheet and labeled it "Years." I was able to calculate this by =Year(R2). R2 is the column that had the full date. Now that I had my year for each campaign (focused on plays), I created a pivot table (Insert-pivot table). I filtered the data by parent category and year. For values I input outcomes. I added a row for data created conversion and calculated by month of launch date. Once I had my pivot table created, I made a line graph to compare successful, failed, canceled outcomes for each month.
 
-![Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch png](https://user-images.githubusercontent.com/106719954/175836488-a85c9ab7-c533-4dd1-b554-7d945fc7e1ae.png)
+
+
 
 Some of the challenges I faced in this data was due to filtering by Month. It took me a couple of tries to gather the month. Since I had filtered by years the data kept presenting itself as year over year. When I adjusted the settings further, it would calculate the data by quarter. Filtering by month took a few tries until I finally figured out, I had to sort by years and then remove years and quarter when it left me with the month only. Another challenge I faced was trying to filter out the launched campaigns. I had a few campaigns that did not fall under successful, failed or cancelled and were showing up as “go live”. When I sorted the data in the pivot table it removed that information.
 
@@ -20,7 +22,8 @@ On the second analysis, outcomes based on goals, the goals were broken into brac
 
 =Countif (refer to the spreadsheet to review the formulas for each category).
 
-![Outcomes_vs_Launch](Resources/Outcomes_based_on_goals)
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/106719954/175836445-2372677d-7d58-4bad-8424-4c9aab1cd5f5.png)
+
 
 The challenge I encountered on this data was getting the formulas correct. There were a couple of formulas were I put the quotes or > < areas in the wrong direction. One typo skews the data completely. I discovered these mistakes when I created my chart and the data looked off. I went back to my data and double checked everything to find my typos and fix them.
 
